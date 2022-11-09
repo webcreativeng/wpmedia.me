@@ -1,0 +1,210 @@
+/*
+Theme Name: WPMediaFront
+Author: webcreative
+Author URI:
+Theme URI: https://wp-media.me/
+Tags: full-site-editing, editor-style, block-styles, block-patterns
+Text Domain: wpmediafront
+Requires at least: 6.0
+Requires PHP: 7.4
+Tested up to: 6.0
+Version: 1.0.0
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
+html {
+	scroll-behavior: smooth;
+  @media screen and (prefers-reduced-motion: reduce) {
+	  scroll-behavior: auto;
+  }
+}
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+
+  	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0;
+	text-align: left;
+  	color: #4A5362;
+}
+
+header {
+  font-size: 16px;
+  a {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0.01em;
+	text-align: left;
+	text-decoration: none;
+  }
+  .start_button a {
+	font-size: 14px;
+	line-height: 22px;
+  }
+}
+.start_button {
+  box-shadow: 0 3px 0 0 #2c798d;
+  border-radius: 3px;
+  a {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 26px;
+	color: #ffffff;
+	&:hover {
+	  color: #ffffff;
+	}
+  }
+}
+main {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -0.005em;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 450;
+  line-height: 48px;
+  letter-spacing: -0.005em;
+}
+h3 {
+  font-size: 28px;
+  font-weight: 450;
+  line-height: 36px;
+  letter-spacing: 0;
+}
+
+.imgfy-container {
+  width: 1440px;
+  margin: 0 auto;
+}
+.imagify-hero {
+  height: 80vh;
+  background-size: contain !important;
+  background: url("assets/images/background.png") no-repeat right;
+
+  .imgfy-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  }
+  .wp-block-columns {
+	align-items: center !important;
+  }
+  .hero-text {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 32px;
+	letter-spacing: 0;
+	text-align: left;
+
+  }
+}
+
+h1, h2, h3 {
+  font-family: 'Brandon Grotesque', serif;
+}
+
+.imgfy-features {
+  background-color: #f4f7f9;
+  padding: 104px 0;
+
+  h2 {
+	margin: 2rem 0 5rem;
+  }
+
+  .imgfy-columns {
+  	> .wp-block-column {
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: flex-start;
+  	}
+	.highlight {
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: flex-start;
+	  padding: 56px 43px;
+	  gap: 16px;
+	  width: 287px;
+	  height: 386px;
+	  background: #343A49;
+	  border-radius: 4px;
+	  flex: none;
+	  order: 0;
+	  flex-grow: 0;
+	  box-sizing: border-box;
+	  margin-right: 3rem;
+	  h3, p {
+		color: #FFFFFF;
+	  }
+	  .blue-text {
+		color: #40B1D0;
+	  }
+	}
+	hr {
+	  margin-top: 3rem;
+	}
+  }
+
+}
+
+.igfy {
+  font-size: 48px;
+}
+/*
+Sticky header is experimental, only use it on the front for screens above 782px width.
+*/
+@media screen and (min-width: 782px) {
+
+	.is-style-wpmediafront-sticky {
+		position: sticky;
+		top: 0;
+		z-index: 888;
+	}
+
+	/* Move the sticky position down to adjust for the WordPress admin bar */
+	.admin-bar .is-style-wpmediafront-sticky {
+		top: 32px;
+	}
+}
+
+/*
+ * Increase horizontal padding on smaller screens.
+ * Temporary solution to avoid text content
+ * running up to the edge of the browser window,
+ * making the text difficult to read.
+*/
+@media ( max-width: 1024px ) {
+
+	main > :not(.alignfull),
+	main .wp-block-query > :not(.alignfull),
+	main .entry-content > :not(.alignfull):not(ul):not(ol),
+	main .entry-content .wp-block-columns.alignfull p {
+		padding-left: var(--wp--custom--h-spacing);
+		padding-right: var(--wp--custom--h-spacing);
+	}
+}
+@import "assets/imagify-v1.0/style.scss";

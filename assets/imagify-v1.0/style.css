@@ -1,0 +1,2899 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "imagify";
+  src: url("assets/imagify-v1.0/fonts/imagify.eot?i5n60l");
+  src: url("assets/imagify-v1.0/fonts/imagify.eot?i5n60l#iefix") format("embedded-opentype"), url("assets/imagify-v1.0/fonts/imagify.ttf?i5n60l") format("truetype"), url("assets/imagify-v1.0/fonts/imagify.woff?i5n60l") format("woff"), url("assets/imagify-v1.0/fonts/imagify.svg?i5n60l#imagify") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "imagify" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.igfy-Imagify .path1:before {
+  content: "";
+  color: white;
+}
+
+.igfy-Imagify .path2:before {
+  content: "";
+  margin-left: -1.0126953125em;
+  color: #7a8997;
+}
+
+.igfy-Imagify .path3:before {
+  content: "";
+  margin-left: -1.0126953125em;
+  color: #7a8997;
+}
+
+.igfy-Imagify .path4:before {
+  content: "";
+  margin-left: -1.0126953125em;
+  color: #7a8997;
+}
+
+.igfy-Imagify .path5:before {
+  content: "";
+  margin-left: -1.0126953125em;
+  color: #7a8997;
+}
+
+.igfy-Imagify .path6:before {
+  content: "";
+  margin-left: -1.0126953125em;
+  color: #7a8997;
+}
+
+.igfy-Imagify .path7:before {
+  content: "";
+  margin-left: -1.0126953125em;
+  color: #00a8dc;
+}
+
+.igfy-Imagify .path8:before {
+  content: "";
+  margin-left: -1.0126953125em;
+  color: #00a8dc;
+}
+
+.igfy-Custom-Dev .path1:before {
+  content: "";
+  color: white;
+}
+
+.igfy-Custom-Dev .path2:before {
+  content: "";
+  margin-left: -1.0126953125em;
+  color: black;
+}
+
+.igfy-Joomla .path1:before {
+  content: "";
+  color: white;
+}
+
+.igfy-Joomla .path2:before {
+  content: "";
+  margin-left: -1.0126953125em;
+  color: #7ac143;
+}
+
+.igfy-Joomla .path3:before {
+  content: "";
+  margin-left: -1.0126953125em;
+  color: #f9a541;
+}
+
+.igfy-Joomla .path4:before {
+  content: "";
+  margin-left: -1.0126953125em;
+  color: #f44321;
+}
+
+.igfy-Joomla .path5:before {
+  content: "";
+  margin-left: -1.0126953125em;
+  color: #5091cd;
+}
+
+.igfy-Drupal .path1:before {
+  content: "";
+  color: white;
+}
+
+.igfy-Drupal .path2:before {
+  content: "";
+  margin-left: -1.0126953125em;
+  color: #009cde;
+}
+
+.igfy-Magento .path1:before {
+  content: "";
+  color: white;
+}
+
+.igfy-Magento .path2:before {
+  content: "";
+  margin-left: -1.025390625em;
+  color: white;
+}
+
+.igfy-Magento .path3:before {
+  content: "";
+  margin-left: -1.025390625em;
+  color: #f26322;
+}
+
+.igfy-Magento .path4:before {
+  content: "";
+  margin-left: -1.025390625em;
+  color: #f26322;
+}
+
+.igfy-Wordpress .path1:before {
+  content: "";
+  color: white;
+}
+
+.igfy-Wordpress .path2:before {
+  content: "";
+  margin-left: -1.0126953125em;
+  color: #0083b8;
+}
+
+.igfy-Wordpress .path3:before {
+  content: "";
+  margin-left: -1.0126953125em;
+  color: #0083b8;
+}
+
+.igfy-Wordpress .path4:before {
+  content: "";
+  margin-left: -1.0126953125em;
+  color: #0083b8;
+}
+
+.igfy-Wordpress .path5:before {
+  content: "";
+  margin-left: -1.0126953125em;
+  color: #0083b8;
+}
+
+.igfy-Wordpress .path6:before {
+  content: "";
+  margin-left: -1.0126953125em;
+  color: #0083b8;
+}
+
+.igfy-Property-1Number .path1:before {
+  content: "";
+  color: none;
+}
+
+.igfy-Property-1Number .path2:before {
+  content: "";
+  margin-left: -1.0126953125em;
+  color: #8bc34a;
+}
+
+.igfy-Property-1Number .path3:before {
+  content: "";
+  margin-left: -1.0126953125em;
+  color: white;
+}
+
+.igfy-2 .path1:before {
+  content: "";
+  color: none;
+}
+
+.igfy-2 .path2:before {
+  content: "";
+  margin-left: -1.0126953125em;
+  color: #8bc34a;
+}
+
+.igfy-2 .path3:before {
+  content: "";
+  margin-left: -1.0126953125em;
+  color: white;
+}
+
+.igfy-1 .path1:before {
+  content: "";
+  color: none;
+}
+
+.igfy-1 .path2:before {
+  content: "";
+  margin-left: -1.0126953125em;
+  color: #8bc34a;
+}
+
+.igfy-1 .path3:before {
+  content: "";
+  margin-left: -1.0126953125em;
+  color: white;
+}
+
+.igfy-Infinite .path1:before {
+  content: "";
+  color: #8bc34a;
+}
+
+.igfy-Infinite .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Infinite .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Infinite .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Update .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-Update .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Update .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Update .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Retina .path1:before {
+  content: "";
+  color: #343a49;
+}
+
+.igfy-Retina .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Retina .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #73a13d;
+}
+
+.igfy-Retina .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Retina .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Retina .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #b8bfc5;
+}
+
+.igfy-Retina .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Retina .path8:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Retina .path9:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Retina .path10:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Retina .path11:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Retina .path12:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #73a13d;
+}
+
+.igfy-Retina .path13:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Retina .path14:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Retina .path15:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #b8bfc5;
+}
+
+.igfy-Retina .path16:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Retina .path17:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Retina .path18:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Optimize-in-1-click .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-Optimize-in-1-click .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Optimize-in-1-click .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #73a13d;
+}
+
+.igfy-Optimize-in-1-click .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Optimize-in-1-click .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #73a13d;
+}
+
+.igfy-Optimize-in-1-click .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Optimize-in-1-click .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #73a13d;
+}
+
+.igfy-Optimize-in-1-click .path8:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Optimize-in-1-click .path9:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #73a13d;
+}
+
+.igfy-Optimize-in-1-click .path10:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Optimize-from-your-CMS .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-Optimize-from-your-CMS .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Optimize-from-your-CMS .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Optimize-from-your-CMS .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Optimize-from-your-CMS .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Optimize-from-your-CMS .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #b8bfc5;
+}
+
+.igfy-Optimize-from-your-CMS .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Optimize-from-your-CMS .path8:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Optimize-from-your-CMS .path9:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #73a13d;
+}
+
+.igfy-Optimize-from-your-CMS .path10:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Optimize-from-your-CMS .path11:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Optimize-from-your-CMS .path12:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Connect-API .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-Connect-API .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Connect-API .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Connect-API .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #626e7b;
+}
+
+.igfy-Connect-API .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Technologies .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-Technologies .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Technologies .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Technologies .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Technologies .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #b8bfc5;
+}
+
+.igfy-Optimize-1 .path1:before {
+  content: "";
+  color: #8bc34a;
+}
+
+.igfy-Optimize-1 .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Optimize-1 .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Optimization .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-Optimization .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Optimization .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Optimization .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #73a13d;
+}
+
+.igfy-Optimization .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #626e7b;
+}
+
+.igfy-Optimization .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Optimization .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Resize .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-Resize .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Resize .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Resize .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Resize .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Resize .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Resize .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Every-Image-Size .path1:before {
+  content: "";
+  color: #343a49;
+}
+
+.igfy-Every-Image-Size .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #626e7b;
+}
+
+.igfy-Every-Image-Size .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Every-Image-Size .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Every-Image-Size .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #626e7b;
+}
+
+.igfy-Every-Image-Size .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #b8bfc5;
+}
+
+.igfy-Every-Image-Size .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #73a13d;
+}
+
+.igfy-Every-Image-Size .path8:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Responsive .path1:before {
+  content: "";
+  color: #3694ae;
+}
+
+.igfy-Responsive .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Responsive .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Responsive .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Responsive .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Responsive .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Responsive .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Responsive .path8:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Responsive .path9:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Responsive .path10:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Formats .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-Formats .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Formats .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Formats .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Formats .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Formats .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Formats .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Formats .path8:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Formats .path9:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Image .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-Image .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Image .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Image .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Denied-update .path1:before {
+  content: "";
+  color: #8bc34a;
+}
+
+.igfy-Denied-update .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Denied-update .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Denied-update .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Denied-update .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-SEO-penalities .path1:before {
+  content: "";
+  color: #8bc34a;
+}
+
+.igfy-SEO-penalities .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-SEO-penalities .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-SEO-penalities .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-SEO-penalities .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-SEO .path1:before {
+  content: "";
+  color: #8bc34a;
+}
+
+.igfy-SEO .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-SEO .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-User .path1:before {
+  content: "";
+  color: #8bc34a;
+}
+
+.igfy-User .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-User .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-No-Support .path1:before {
+  content: "";
+  color: white;
+}
+
+.igfy-No-Support .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-No-Support .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-No-Support .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-No-Support .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-No-Support .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-No-Support .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #7a8996;
+}
+
+.igfy-No-Support .path8:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: black;
+  opacity: 0.2;
+}
+
+.igfy-No-Support .path9:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-No-Support .path10:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Support .path1:before {
+  content: "";
+  color: #8bc34a;
+}
+
+.igfy-Support .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Support .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-MoneyBack-3 .path1:before {
+  content: "";
+  color: #8bc34a;
+  opacity: 0.6;
+}
+
+.igfy-MoneyBack-3 .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+  opacity: 0.8;
+}
+
+.igfy-MoneyBack-3 .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-MoneyBack-3 .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-MoneyBack-3 .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-MoneyBack-3 .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-MoneyBack-2 .path1:before {
+  content: "";
+  color: #8bc34a;
+}
+
+.igfy-MoneyBack-2 .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-MoneyBack-2 .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-MoneyBack-2 .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-MoneyBack-2 .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: none;
+}
+
+.igfy-MoneyBack-2 .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: none;
+}
+
+.igfy-Password .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-Password .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Password .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Password .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Password .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Password .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Password .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Guide .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-Guide .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Guide .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Guide .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Guide .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Guide .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Guide .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Book-Adress .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-Book-Adress .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Book-Adress .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Book-Adress .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Book-Adress .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Book-Adress .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Book-Adress .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Book-Adress .path8:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-URL .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-URL .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-URL .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-URL .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-URL .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-URL .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Hebergeur .path1:before {
+  content: "";
+  color: #8bc34a;
+}
+
+.igfy-Hebergeur .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Hebergeur .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Hebergeur .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Hebergeur .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Hebergeur .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Leger .path1:before {
+  content: "";
+  color: #8bc34a;
+}
+
+.igfy-Leger .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Leger .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Leger .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Leger .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Leger .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Leger .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Benefits .path1:before {
+  content: "";
+  color: #3694ae;
+}
+
+.igfy-Benefits .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Benefits .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Benefits .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Benefits .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Benefits .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Benefits .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Benefits .path8:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-LowPrice .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-LowPrice .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-LowPrice .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-MoneyBack4 .path1:before {
+  content: "";
+  color: #343a49;
+}
+
+.igfy-MoneyBack4 .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-MoneyBack4 .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-MoneyBack .path1:before {
+  content: "";
+  color: none;
+}
+
+.igfy-MoneyBack .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: none;
+}
+
+.igfy-MoneyBack .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-MoneyBack .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-MoneyBack .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-MoneyBack .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Cache .path1:before {
+  content: "";
+  color: #343a49;
+}
+
+.igfy-Cache .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Cache .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Cache .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Cache .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Launch .path1:before {
+  content: "";
+  color: #3694ae;
+}
+
+.igfy-Launch .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Launch .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Launch .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Launch .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Launch .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Launch .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Launch .path8:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Launch .path9:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Launch .path10:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Press-Highlight .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-Press-Highlight .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Press-Highlight .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Press-Highlight .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: none;
+}
+
+.igfy-Document .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-Document .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Document .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Document .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-2Gzip .path1:before {
+  content: "";
+  color: #343a49;
+}
+
+.igfy-2Gzip .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-2Gzip .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-2Gzip .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-2Gzip .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-eCommerce .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-eCommerce .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-eCommerce .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-eCommerce .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-eCommerce .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-WebP .path1:before {
+  content: "";
+  color: #8bc34a;
+}
+
+.igfy-WebP .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-WebP .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-WebP .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Enhancements .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-Enhancements .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Enhancements .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Enhancements .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Enhancements .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Enhancements .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Enhancements .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Enhancements .path8:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Enhancements .path9:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Customize .path1:before {
+  content: "";
+  color: #8bc34a;
+}
+
+.igfy-Customize .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Customize .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Customize .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Customize .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Automatic-licence-detection .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-Automatic-licence-detection .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Automatic-licence-detection .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Automatic-licence-detection .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Features .path1:before {
+  content: "";
+  color: #8bc34a;
+}
+
+.igfy-Features .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Features .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Features .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Features .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Bug-Fixed .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-Bug-Fixed .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Bug-Fixed .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Bug-Fixed .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Bug-Fixed .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Bug-Fixed .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Bug-Fixed .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Bug-Fixed .path8:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Bug-Fixed .path9:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Bug-Fixed .path10:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-PictKit-Affiliate .path1:before {
+  content: "";
+  color: #8bc34a;
+}
+
+.igfy-PictKit-Affiliate .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-PictKit-Affiliate .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-PictKit-Affiliate .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-PictKit-Affiliate .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-PictKit-Affiliate .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-PictKit-Affiliate .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-PictKit-Affiliate .path8:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Legal-issue .path1:before {
+  content: "";
+  color: #343a49;
+}
+
+.igfy-Legal-issue .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Legal-issue .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Legal-issue .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Legal-issue .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Privacy .path1:before {
+  content: "";
+  color: #343a49;
+}
+
+.igfy-Privacy .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Privacy .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Privacy .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Privacy .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Security .path1:before {
+  content: "";
+  color: #8bc34a;
+}
+
+.igfy-Security .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Security .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Warning .path1:before {
+  content: "";
+  color: #343a49;
+}
+
+.igfy-Warning .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Warning .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Warning .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Warning .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Technical-issue .path1:before {
+  content: "";
+  color: #343a49;
+}
+
+.igfy-Technical-issue .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Technical-issue .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Common-questions .path1:before {
+  content: "";
+  color: #343a49;
+}
+
+.igfy-Common-questions .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Common-questions .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Common-questions .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Common-questions .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Manage-Licence .path1:before {
+  content: "";
+  color: #8bc34a;
+}
+
+.igfy-Manage-Licence .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Manage-Licence .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Manage-Licence .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Import-Export .path1:before {
+  content: "";
+  color: #8bc34a;
+}
+
+.igfy-Import-Export .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Import-Export .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Unique .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-Unique .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Unique .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Unique .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Unique .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Unique .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Unique .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Unique .path8:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Happy-customers .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-Happy-customers .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Happy-customers .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Rated .path1:before {
+  content: "";
+  color: white;
+}
+
+.igfy-Rated .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Rated .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Rated .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Rated .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Rated .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Rated .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Rated .path8:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Rated .path9:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Rated .path10:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Optimize .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-Optimize .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Optimize .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Optimize .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Optimize .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Translator .path1:before {
+  content: "";
+  color: #8bc34a;
+}
+
+.igfy-Translator .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Translator .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Translator .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Translator .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Translator .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Translator .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Translator .path8:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Affiliate .path1:before {
+  content: "";
+  color: #8bc34a;
+}
+
+.igfy-Affiliate .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Affiliate .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #7a8996;
+}
+
+.igfy-Affiliate .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: black;
+  opacity: 0.2;
+}
+
+.igfy-Affiliate .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Affiliate .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Affiliate .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #7a8996;
+}
+
+.igfy-Affiliate .path8:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: black;
+  opacity: 0.2;
+}
+
+.igfy-Affiliate .path9:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Affiliate .path10:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Affiliate .path11:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #7a8996;
+}
+
+.igfy-Affiliate .path12:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: black;
+  opacity: 0.2;
+}
+
+.igfy-CDN .path1:before {
+  content: "";
+  color: #8bc34a;
+}
+
+.igfy-CDN .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-CDN .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-CDN .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-CDN .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-CDN .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Database .path1:before {
+  content: "";
+  color: #8bc34a;
+}
+
+.igfy-Database .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Database .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #7a8996;
+}
+
+.igfy-Database .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: black;
+  opacity: 0.2;
+}
+
+.igfy-Database .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Database .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Database .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Database .path8:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Licence .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-Licence .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Licence .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Licence .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Licence .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Licence .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Licence .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Licence .path8:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Licence .path9:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Licence .path10:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Licence .path11:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Licence .path12:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Licence .path13:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Help .path1:before {
+  content: "";
+  color: #8bc34a;
+}
+
+.igfy-Help .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Help .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Help .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Help .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Help .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: none;
+}
+
+.igfy-Help .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Help .path8:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Help .path9:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #7a8996;
+}
+
+.igfy-Help .path10:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: black;
+  opacity: 0.2;
+}
+
+.igfy-Upgrade .path1:before {
+  content: "";
+  color: #343a49;
+}
+
+.igfy-Upgrade .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Upgrade .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-FAQ .path1:before {
+  content: "";
+  color: #8bc34a;
+}
+
+.igfy-FAQ .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-FAQ .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-FAQ .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-FAQ .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #7a8996;
+}
+
+.igfy-FAQ .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: black;
+  opacity: 0.2;
+}
+
+.igfy-Video .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-Video .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Video .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Video .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Video .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Video .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Video .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Browser .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-Browser .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Browser .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Browser .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Browser .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Browser .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Browser .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Load .path1:before {
+  content: "";
+  color: #343a49;
+}
+
+.igfy-Load .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Load .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Load .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Easy .path1:before {
+  content: "";
+  color: #8bc34a;
+}
+
+.igfy-Easy .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Easy .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+.igfy-Time .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-Time .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Time .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Time .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Time .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Time .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Time .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: none;
+}
+
+.igfy-Time .path8:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: none;
+}
+
+.igfy-Time .path9:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Time .path10:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Time .path11:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Time .path12:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Time .path13:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Performance .path1:before {
+  content: "";
+  color: #40b1d0;
+}
+
+.igfy-Performance .path2:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #8bc34a;
+}
+
+.igfy-Performance .path3:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Performance .path4:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Performance .path5:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Performance .path6:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Performance .path7:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: white;
+}
+
+.igfy-Performance .path8:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #3694ae;
+}
+
+.igfy-Performance .path9:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #343a49;
+}
+
+.igfy-Performance .path10:before {
+  content: "";
+  margin-left: -1.3125em;
+  color: #40b1d0;
+}
+
+/*# sourceMappingURL=style.css.map */
